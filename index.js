@@ -8,8 +8,6 @@ function destructivelyRemoveLastKitten(){
 function destructivelyRemoveFirstKitten(){
   kittens.shift();}
   function appendKitten(name){
-    const 
-    var newkittens = kittens;
-    
-    return newkittens
+     var newkittens = kittens.push(name);
+     return newkittens
   }
