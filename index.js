@@ -7,9 +7,10 @@ function destructivelyRemoveLastKitten(){
   kittens.pop();}
 function destructivelyRemoveFirstKitten(){
   kittens.shift();}
-  function appendKitten(name){
+function appendKitten(name){
      var newkittens = [...kittens, name];
      return newkittens}
-     function prependKitten(name){
+function prependKitten(name){
        var newkittens = [name, ...kittens];
        return newkittens}
+function 
